@@ -138,3 +138,10 @@ nav a:hover {
 .button:hover {
   cursor: pointer;
 }
+
+.opening-hours {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  height: 45px;
+}
