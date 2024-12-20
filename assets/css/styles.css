@@ -20,6 +20,10 @@ header {
   width: 990px;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -51,5 +55,86 @@ nav .active a,
 nav a:hover {
   background-color: #39aae1;
   color: #fff;
-  
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+}
+
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  max-width: 350px;
+  gap: 30px;
+}
+
+.banner-title h1 {
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 0px 1px 1px #555;
+}
+
+.banner-title h2 {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0px 1px 1px #555;
+}
+
+.banner-options {
+  display: flex;
+  height: 210px;
+}
+
+.banner-1,
+.banner-2,
+.banner-3 {
+  flex: 1;
+  color: #fff;
+  padding: 20px;
+}
+
+.banner-1 {
+  background-color: #39aae1;
+}
+
+.banner-2 {
+  background-color: #0079c7;
+}
+
+.banner-3 {
+  background-color: #2b4c99;
+}
+
+.banner-1 h3,
+.banner-2 h3,
+.banner-3 h3 {
+  font-weight: 100;
+}
+
+.banner-1 p,
+.banner-2 p,
+.banner-3 p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.button {
+  display: inline-flex;
+  border: 1px solid #fff;
+  padding: 10px;
+  background-color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
 }
