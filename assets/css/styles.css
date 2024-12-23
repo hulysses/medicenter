@@ -1,3 +1,4 @@
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ p {
   text-align: justify;
 }
 
+/* Header styles */
 header {
   display: flex;
   justify-content: center;
@@ -61,6 +63,7 @@ nav a:hover {
   color: #fff;
 }
 
+/* Banner styles */
 #banner {
   display: flex;
   justify-content: center;
@@ -149,6 +152,7 @@ nav a:hover {
   cursor: pointer;
 }
 
+/* General section styles */
 .opening-hours {
   display: flex;
   justify-content: space-between;
@@ -228,6 +232,7 @@ nav a:hover {
   border-bottom: 2px solid #e0e0e0;
 }
 
+/* Article styles */
 article {
   display: flex;
   flex-direction: column;
@@ -268,6 +273,7 @@ article .news-resume {
   flex-wrap: wrap;
 }
 
+/* Footer styles */
 footer {
   display: flex;
   flex: 1;
@@ -296,4 +302,21 @@ footer {
   height: 40px;
   line-height: 40px;
   margin-top: 30px;
+}
+
+.menu-title h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.menu-description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-1 p,
+.menu-2 p,
+.menu-3 p {
+  font-size: 12px;
 }
