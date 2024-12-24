@@ -339,3 +339,180 @@ footer {
   color: #39aae1;
   padding-left: 27px;
 }
+
+.menu-mobile {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.line {
+  height: 2px;
+  background-color: #0079c7;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+  }
+
+  #geral {
+    margin-top: 100px;
+  }
+
+  #geral section,
+  #geral aside,
+  .banner-title,
+  .footer-area {
+    padding: 20px;
+  }
+
+  .footer-copy {
+    padding-left: 20px;
+  }
+
+  .banner-title h1 {
+    font-size: 55px;
+  }
+
+  .banner-title h2 {
+    font-size: 16px;
+  }
+
+  .banner-options {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer-menu,
+  .footer-area {
+    flex-direction: column;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .logo img {
+    padding: 20px;
+  }
+
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-title h1 {
+    font-size: 45px;
+  }
+
+  .banner-title h2 {
+    font-size: 14px;
+  }
+
+  .banner-options {
+    flex-direction: column;
+  }
+
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    padding: 10px;
+  }
+
+  .footer-description {
+    margin-right: 0;
+  }
+
+  .footer-location {
+    gap: 10px;
+  }
+
+  .location-phone {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-copy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  header .container {
+    flex-direction: row;
+  }
+
+  #geral {
+    margin-top: 100px;
+  }
+
+  #geral section,
+  #geral aside,
+  .banner-title,
+  .footer-area {
+    padding: 20px;
+  }
+
+  .footer-copy {
+    padding-left: 20px;
+  }
+
+  .banner-title h1 {
+    font-size: 55px;
+  }
+
+  .banner-title h2 {
+    font-size: 16px;
+  }
+
+  .banner-options {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer-menu,
+  .footer-area {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .logo img {
+    padding: 20px;
+  }
+}

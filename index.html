@@ -19,22 +19,17 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menu-mobile">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
                     <ul>
-                        <li class="active">
-                            <a href="#">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#">DEPARTMENTS</a>
-                        </li>
-                        <li>
-                            <a href="#">TIMETABLE</a>
-                        </li>
-                        <li>
-                            <a href="#">GALLERY</a>
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">DEPARTMENTS</a></li>
+                        <li><a href="#">TIMETABLE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -323,6 +318,19 @@
             </div>
         </div>
     </footer>
+    <script>
+        window.onload = function () {
+            const menuMobile = document.querySelector('.menu-mobile');
+            const menu = document.querySelector('.menu ul');
+            menuMobile.addEventListener('click', function () {
+                if (menu.style.display === 'flex') {
+                    menu.style.display = 'none';
+                } else {
+                    menu.style.display = 'flex';
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
